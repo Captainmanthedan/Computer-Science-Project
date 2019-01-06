@@ -1,0 +1,2 @@
+INSERT INTO LOGIN_TEST (Username, Firstname, Lastname, Password, SignUpDate)
+VALUES ('username', 'FirstName', 'LastName', 'pass', 'SignUpDate')

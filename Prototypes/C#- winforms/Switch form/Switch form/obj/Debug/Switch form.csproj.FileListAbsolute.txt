@@ -1,0 +1,11 @@
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\bin\Debug\Switch form.exe.config
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\bin\Debug\Switch form.exe
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\bin\Debug\Switch form.pdb
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\obj\Debug\Switch form.csprojAssemblyReference.cache
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\obj\Debug\Switch_form.Form1.resources
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\obj\Debug\Switch_form.Properties.Resources.resources
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\obj\Debug\Switch form.csproj.GenerateResource.cache
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\obj\Debug\Switch form.csproj.CoreCompileInputs.cache
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\obj\Debug\Switch form.exe
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\obj\Debug\Switch form.pdb
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Switch form\Switch form\obj\Debug\Switch_form.Form2.resources
