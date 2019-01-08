@@ -30,20 +30,28 @@ namespace sine_graph_2
 			double y;
 			int x = 0;
 
-			double[] points = new double[25];
+			double[] points = new double[96];
 
-			Tuple<int, int> t = Tuple.Create(0, 1);
+			chart1.Series[0].ChartType = SeriesChartType.Spline;
+			chart1.Series[0].MarkerStyle = MarkerStyle.Circle;
+			chart1.Series[0].LegendText = "Sign Graph";
+			//Tuple<int, int> t = Tuple.Create(0, 1);
+			chart1.ChartAreas[0].AxisX.MajorGrid.LineWidth = 0;
+			chart1.ChartAreas[0].AxisY.MajorGrid.LineWidth = 0;
 
-			while (0 <= x && x <= 360)
+			string s = "";
+
+			while (0 <= x && x <= 1440)
 			{
 				y = a * (Math.Sin((c * x) + d)) + b;
 
 				points[i] = y;
 
-				chart1.Series[0].Points.Add(new DataPoint(i, t.Item1));
-				t = Tuple.Create(t.Item2, t.Item1 + t.Item2);
 
-				x = x + 15;
+				s = s + i + "(" + x + ", " + y + ")";
+				//chart1.Series[0].Points.Add(new DataPoint(x, y));
+
+				x = x + 90;
 				i++;
 			}
 
@@ -53,6 +61,8 @@ namespace sine_graph_2
 			while (0 <= x && x <= 360)
 			{
 				y = points[i];
+
+				chart1.Series[0].Points.Add(new DataPoint(x, y));
 
 				x = x + 15;
 				i++;

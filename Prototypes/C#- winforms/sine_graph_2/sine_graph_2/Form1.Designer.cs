@@ -38,9 +38,10 @@
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(713, 405);
+			this.button1.Location = new System.Drawing.Point(1415, 673);
+			this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.Size = new System.Drawing.Size(100, 28);
 			this.button1.TabIndex = 0;
 			this.button1.Text = "button1";
 			this.button1.UseVisualStyleBackColor = true;
@@ -52,24 +53,26 @@
 			this.chart1.ChartAreas.Add(chartArea1);
 			legend1.Name = "Legend1";
 			this.chart1.Legends.Add(legend1);
-			this.chart1.Location = new System.Drawing.Point(53, 50);
+			this.chart1.Location = new System.Drawing.Point(40, 13);
+			this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.chart1.Name = "chart1";
 			series1.ChartArea = "ChartArea1";
 			series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
 			series1.Legend = "Legend1";
 			series1.Name = "Series1";
 			this.chart1.Series.Add(series1);
-			this.chart1.Size = new System.Drawing.Size(300, 300);
+			this.chart1.Size = new System.Drawing.Size(1266, 653);
 			this.chart1.TabIndex = 2;
 			this.chart1.Text = "chart1";
 			// 
 			// Form1
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(1528, 714);
 			this.Controls.Add(this.chart1);
 			this.Controls.Add(this.button1);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "Form1";
 			this.Text = "Form1";
 			((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
