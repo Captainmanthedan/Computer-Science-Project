@@ -30,7 +30,7 @@ namespace sine_graph_2
 			double y;
 			int x = 0;
 
-			double[] points = new double[96];
+			double[] points = new double[17];
 
 			chart1.Series[0].ChartType = SeriesChartType.Spline;
 			chart1.Series[0].MarkerStyle = MarkerStyle.Circle;
@@ -45,8 +45,9 @@ namespace sine_graph_2
 			{
 				y = a * (Math.Sin((c * x) + d)) + b;
 
-				points[i] = y;
+				y = Math.Round(y);
 
+				points[i] = y;
 
 				s = s + i + "(" + x + ", " + y + ")";
 				//chart1.Series[0].Points.Add(new DataPoint(x, y));
@@ -55,16 +56,18 @@ namespace sine_graph_2
 				i++;
 			}
 
+			MessageBox.Show(s);
+
 			i = 0;
 			x = 0;
 
-			while (0 <= x && x <= 360)
+			while (0 <= x && x <= 1440)
 			{
 				y = points[i];
 
 				chart1.Series[0].Points.Add(new DataPoint(x, y));
 
-				x = x + 15;
+				x = x + 90;
 				i++;
 			}
 
