@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows.Forms.DataVisualization.Charting;
 
 namespace sine_graph_2
 {
@@ -20,54 +19,30 @@ namespace sine_graph_2
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			int a = 1;
-			int b = 0;
-			int c = 1;
-			int d = 0;
 
 			int i = 0;
 
-			double y;
-			int x = 0;
+			int x_corrdinate = 0;
+			double y_corrdinate;
 
-			double[] points = new double[96];
+			double x;
 
-			chart1.Series[0].ChartType = SeriesChartType.Spline;
-			chart1.Series[0].MarkerStyle = MarkerStyle.Circle;
-			chart1.Series[0].LegendText = "Sign Graph";
-			//Tuple<int, int> t = Tuple.Create(0, 1);
-			chart1.ChartAreas[0].AxisX.MajorGrid.LineWidth = 0;
-			chart1.ChartAreas[0].AxisY.MajorGrid.LineWidth = 0;
+			textBox1.Text = "";
 
-			string s = "";
-
-			while (0 <= x && x <= 1440)
+			while (0 <= x_corrdinate && x_corrdinate <= 1440)
 			{
-				y = a * (Math.Sin((c * x) + d)) + b;
+				x = x_corrdinate * (Math.PI / 180);
 
-				points[i] = y;
+				y_corrdinate = Math.Sin(x);
 
+				y_corrdinate = Math.Round(y_corrdinate);
 
-				s = s + i + "(" + x + ", " + y + ")";
-				//chart1.Series[0].Points.Add(new DataPoint(x, y));
+				textBox1.Text = textBox1.Text + "(" + x_corrdinate + ", " + y_corrdinate + ")";
+				textBox1.AppendText(Environment.NewLine);
 
-				x = x + 90;
+				x_corrdinate = x_corrdinate + 90;
 				i++;
 			}
-
-			i = 0;
-			x = 0;
-
-			while (0 <= x && x <= 360)
-			{
-				y = points[i];
-
-				chart1.Series[0].Points.Add(new DataPoint(x, y));
-
-				x = x + 15;
-				i++;
-			}
-
 		}
 	}
 }
