@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace sine_graph_2
 {
@@ -15,6 +16,7 @@ namespace sine_graph_2
 		public Form1()
 		{
 			InitializeComponent();
+			chart1.Series[0].IsVisibleInLegend = false;
 		}
 
 		//When the button is pressed it uses a sine equation to generate corrdinates for an sine graph
@@ -29,8 +31,8 @@ namespace sine_graph_2
 			//this stores the x corrdinate in radians
 			double x_rad;
 
-			//this sets the text box to NULL so that I can add to it later
-			textBox1.Text = "";
+			//this makes the chart be a Spline which is a line graph but each line is curved not straight.
+			chart1.Series[0].ChartType = SeriesChartType.Spline;
 
 			//this while loop iterates through from x = 0 to x = 1440, adding 90 to x on each iteration
 			while (0 <= x_corrdinate && x_corrdinate <= 1440)
@@ -44,10 +46,8 @@ namespace sine_graph_2
 				//this rouns the y corrdinate to a whole number
 				y_corrdinate = Math.Round(y_corrdinate);
 
-				//this adds the next x corrdinate (in degrees) and y corrdinate to the text box
-				textBox1.Text = textBox1.Text + "(" + x_corrdinate + ", " + y_corrdinate + ")";
-				//this adds a new line to the text box
-				textBox1.AppendText(Environment.NewLine);
+				//this adds a data point on the graph at the x corrdinate (in degrees) and the y corrdinate
+				chart1.Series[0].Points.Add(new DataPoint(x_corrdinate, y_corrdinate));
 
 				//this adds 90 degrees to the x corrdinate
 				x_corrdinate = x_corrdinate + 90;

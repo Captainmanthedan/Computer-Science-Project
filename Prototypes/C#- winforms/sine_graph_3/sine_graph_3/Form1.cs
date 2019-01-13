@@ -34,11 +34,24 @@ namespace sine_graph_3
 			//this makes the chart be a Spline which is a line graph but each line is curved not straight.
 			chart1.Series[0].ChartType = SeriesChartType.Spline;
 
+			chart1.ChartAreas[0].AxisX.MajorGrid.LineWidth = 0;
+			chart1.ChartAreas[0].AxisY.MajorGrid.LineWidth = 0;
+
+			chart1.ChartAreas[0].AxisX.LineColor = chart1.BackColor;
+			chart1.ChartAreas[0].AxisY.LineColor = chart1.BackColor;
+
+			//removes number scale from the x and y axis of the graph
+			chart1.ChartAreas[0].AxisX.LabelStyle.Enabled = false;
+			chart1.ChartAreas[0].AxisY.LabelStyle.Enabled = false;
+
+			chart1.ChartAreas[0].AxisX.MajorTickMark.Enabled = false;
+			chart1.ChartAreas[0].AxisY.MajorTickMark.Enabled = false;
+
 			//this while loop iterates through from x = 0 to x = 1440, adding 90 to x on each iteration
 			while (0 <= x_corrdinate && x_corrdinate <= 1440)
 			{
 				//this connverts the x corrdinate from degrees to radians so that it can be used to calculate the y corrdinate
-				x_rad = x_corrdinate * (Math.PI / 180);
+				x_rad = (x_corrdinate) * (Math.PI / 180);
 
 				//this sine equation generates the y corrdinate by using sine on the current x corrdinate in radians
 				y_corrdinate = Math.Sin(x_rad);

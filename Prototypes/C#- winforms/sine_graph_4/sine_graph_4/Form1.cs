@@ -22,10 +22,13 @@ namespace sine_graph_4
 		//When the button is pressed it uses a sine equation to generate corrdinates for an sine graph
 		private void button1_Click(object sender, EventArgs e)
 		{
-			int a = 1;
-			int b = 0;
-			int c = 1;
-			int d = 0;
+			//this clears the current data points so that if the user changes the graph it plots a new one
+			chart1.Series[0].Points.Clear();
+
+			int a = Convert.ToInt32(BoxA.Value);
+			int b = Convert.ToInt32(BoxB.Value);
+			int c = Convert.ToInt32(BoxC.Value);
+			int d = Convert.ToInt32(BoxD.Value);
 
 			//this set thew starting x corrdinate to zero
 			int x_corrdinate = 0;
@@ -39,18 +42,18 @@ namespace sine_graph_4
 			//this makes the chart be a Spline which is a line graph but each line is curved not straight.
 			chart1.Series[0].ChartType = SeriesChartType.Spline;
 
-			chart1.ChartAreas[0].AxisX.MajorGrid.LineWidth = 0;
-			chart1.ChartAreas[0].AxisY.MajorGrid.LineWidth = 0;
+			//chart1.ChartAreas[0].AxisX.MajorGrid.LineWidth = 0;
+			//chart1.ChartAreas[0].AxisY.MajorGrid.LineWidth = 0;
 
-			chart1.ChartAreas[0].AxisX.LineColor = chart1.BackColor;
-			chart1.ChartAreas[0].AxisY.LineColor = chart1.BackColor;
+			//chart1.ChartAreas[0].AxisX.LineColor = chart1.BackColor;
+			//chart1.ChartAreas[0].AxisY.LineColor = chart1.BackColor;
 
 			//removes number scale from the x and y axis of the graph
-			chart1.ChartAreas[0].AxisX.LabelStyle.Enabled = false;
-			chart1.ChartAreas[0].AxisY.LabelStyle.Enabled = false;
+			//chart1.ChartAreas[0].AxisX.LabelStyle.Enabled = false;
+			//chart1.ChartAreas[0].AxisY.LabelStyle.Enabled = false;
 
-			chart1.ChartAreas[0].AxisX.MajorTickMark.Enabled = false;
-			chart1.ChartAreas[0].AxisY.MajorTickMark.Enabled = false;
+			//chart1.ChartAreas[0].AxisX.MajorTickMark.Enabled = false;
+			//chart1.ChartAreas[0].AxisY.MajorTickMark.Enabled = false;
 
 			//this while loop iterates through from x = 0 to x = 1440, adding 90 to x on each iteration
 			while (0 <= x_corrdinate && x_corrdinate <= 1440)
