@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace sine_graph_1
@@ -17,16 +10,16 @@ namespace sine_graph_1
 			InitializeComponent();
 		}
 
-		//When the button is pressed it uses a sine equation to generate corrdinates for an sine graph
+		//When the button is pressed it uses a sine equation to generate corrdinates for a sine graph
 		private void button1_Click(object sender, EventArgs e)
 		{
-			//this set thew starting x corrdinate to zero
+			//this set the starting x corrdinate to zero
 			int x_corrdinate = 0;
 
-			//this stores the y_corrdinate and is a double because
+			//this stores the y_corrdinate and is a double because when the y corrdinate is generated it could be a decimal point
 			double y_corrdinate;
 
-			//this stores the x corrdinate in radians
+			//this stores the x corrdinate in radians and is a double because it needs to store a decimal number
 			double x_rad;
 
 			//this sets the text box to NULL so that I can add to it later

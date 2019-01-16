@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+
+//this allows me to plot a graph
 using System.Windows.Forms.DataVisualization.Charting;
 
 namespace sine_graph_2
@@ -16,19 +11,18 @@ namespace sine_graph_2
 		public Form1()
 		{
 			InitializeComponent();
-			chart1.Series[0].IsVisibleInLegend = false;
 		}
 
-		//When the button is pressed it uses a sine equation to generate corrdinates for an sine graph
+		//When the button is pressed it uses a sine equation to generate a sine graph
 		private void button1_Click(object sender, EventArgs e)
 		{
-			//this set thew starting x corrdinate to zero
+			//this set the starting x corrdinate to zero
 			int x_corrdinate = 0;
 
-			//this stores the y_corrdinate and is a double because
+			//this stores the y_corrdinate and is a double because when the y corrdinate is generated it could be a decimal point
 			double y_corrdinate;
 
-			//this stores the x corrdinate in radians
+			//this stores the x corrdinate in radians and is a double because it needs to store a decimal number
 			double x_rad;
 
 			//this makes the chart be a Spline which is a line graph but each line is curved not straight.
