@@ -1,0 +1,18 @@
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\bin\Debug\Sine Graph - shortcut and moving graph.exe.config
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\bin\Debug\Sine Graph - shortcut and moving graph.exe
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\bin\Debug\Sine Graph - shortcut and moving graph.pdb
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.csprojAssemblyReference.cache
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine_Graph___shortcut_and_moving_graph.Properties.Resources.resources
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.csproj.GenerateResource.cache
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.csproj.CoreCompileInputs.cache
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.exe
+C:\Users\Capta\source\repos\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.pdb
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\bin\Debug\Sine Graph - shortcut and moving graph.exe.config
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\bin\Debug\Sine Graph - shortcut and moving graph.exe
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\bin\Debug\Sine Graph - shortcut and moving graph.pdb
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.csprojAssemblyReference.cache
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine_Graph___shortcut_and_moving_graph.Properties.Resources.resources
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.csproj.GenerateResource.cache
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.csproj.CoreCompileInputs.cache
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.exe
+C:\Users\Capta\Documents\Computer Science Project\Sine Graph - shortcut and moving graph\Sine Graph - shortcut and moving graph\obj\Debug\Sine Graph - shortcut and moving graph.pdb
