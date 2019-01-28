@@ -4,7 +4,10 @@ using System.Windows.Forms;
 //this allows me to plot a graph
 using System.Windows.Forms.DataVisualization.Charting;
 
-namespace sine_graph_4
+//
+using System.Drawing;
+
+namespace Sign_Graph___Zoom
 {
 	public partial class Form1 : Form
 	{
@@ -67,6 +70,12 @@ namespace sine_graph_4
 			chart1.ChartAreas[0].AxisX.Maximum = 1440;
 			chart1.ChartAreas[0].AxisX.Minimum = 0;
 
+			//
+			chart1.ChartAreas[0].AxisX.ScaleView.Zoomable = true;
+			chart1.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
+
+			chart1.MouseWheel += chart1_MouseWheel;
+
 			//this while loop iterates through from x = 0 to x = 1440, adding 90 to x on each iteration
 			while (0 <= x_corrdinate && x_corrdinate <= 1440)
 			{
@@ -105,6 +114,152 @@ namespace sine_graph_4
 				BoxA.Maximum = 10;
 				BoxA.Increment = 1;
 				BoxA.Value = 1;
+			}
+		}
+
+		private void chart1_MouseWheel(object sender, MouseEventArgs e)
+		{
+			var chart = (Chart)sender;
+			var xAxis = chart.ChartAreas[0].AxisX;
+			var yAxis = chart.ChartAreas[0].AxisY;
+
+			try
+			{
+				if (e.Delta < 0) // Scrolled down.
+				{
+					if (chart1.ChartAreas[0].AxisY.Maximum == 1)
+					{
+						//
+						chart1.ChartAreas[0].AxisY.Maximum = 2;
+						chart1.ChartAreas[0].AxisY.Minimum = -2;
+
+						//
+						Zoom_Plus.ForeColor = SystemColors.ControlText;
+
+						//
+						Zoom_Plus.Enabled = true;
+					}
+					else if (chart1.ChartAreas[0].AxisY.Maximum == 2)
+					{
+						//
+						chart1.ChartAreas[0].AxisY.Maximum = 5;
+						chart1.ChartAreas[0].AxisY.Minimum = -5;
+					}
+					else if (chart1.ChartAreas[0].AxisY.Maximum == 5)
+					{
+						//
+						chart1.ChartAreas[0].AxisY.Maximum = 10;
+						chart1.ChartAreas[0].AxisY.Minimum = -10;
+
+						//
+						Zoom_Minus.ForeColor = SystemColors.ControlDark;
+
+						//
+						Zoom_Minus.Enabled = false;
+					}
+				}
+				else if (e.Delta > 0) // Scrolled up.
+				{
+					if (chart1.ChartAreas[0].AxisY.Maximum == 10)
+					{
+						//
+						chart1.ChartAreas[0].AxisY.Maximum = 5;
+						chart1.ChartAreas[0].AxisY.Minimum = -5;
+
+						//
+						Zoom_Minus.ForeColor = SystemColors.ControlText;
+
+						//
+						Zoom_Minus.Enabled = true;
+					}
+					else if (chart1.ChartAreas[0].AxisY.Maximum == 5)
+					{
+						//
+						chart1.ChartAreas[0].AxisY.Maximum = 2;
+						chart1.ChartAreas[0].AxisY.Minimum = -2;
+					}
+					else if (chart1.ChartAreas[0].AxisY.Maximum == 2)
+					{
+						//
+						chart1.ChartAreas[0].AxisY.Maximum = 1;
+						chart1.ChartAreas[0].AxisY.Minimum = -1;
+
+						//
+						Zoom_Plus.ForeColor = Color.Gray;
+
+						//
+						Zoom_Plus.Enabled = false;
+					}
+				}
+			}
+			catch { }
+		}
+
+		private void Zoom_Minus_Click(object sender, EventArgs e)
+		{
+			if (chart1.ChartAreas[0].AxisY.Maximum == 1)
+			{
+				//
+				chart1.ChartAreas[0].AxisY.Maximum = 2;
+				chart1.ChartAreas[0].AxisY.Minimum = -2;
+
+				//
+				Zoom_Plus.ForeColor = SystemColors.ControlText;
+
+				//
+				Zoom_Plus.Enabled = true;
+			}
+			else if (chart1.ChartAreas[0].AxisY.Maximum == 2)
+			{
+				//
+				chart1.ChartAreas[0].AxisY.Maximum = 5;
+				chart1.ChartAreas[0].AxisY.Minimum = -5;
+			}
+			else if (chart1.ChartAreas[0].AxisY.Maximum == 5)
+			{
+				//
+				chart1.ChartAreas[0].AxisY.Maximum = 10;
+				chart1.ChartAreas[0].AxisY.Minimum = -10;
+
+				//
+				Zoom_Minus.ForeColor = SystemColors.ControlDark;
+
+				//
+				Zoom_Minus.Enabled = false;
+			}
+		}
+
+		private void Zoom_Plus_Click(object sender, EventArgs e)
+		{
+			if (chart1.ChartAreas[0].AxisY.Maximum == 10)
+			{
+				//
+				chart1.ChartAreas[0].AxisY.Maximum = 5;
+				chart1.ChartAreas[0].AxisY.Minimum = -5;
+
+				//
+				Zoom_Minus.ForeColor = SystemColors.ControlText;
+
+				//
+				Zoom_Minus.Enabled = true;
+			}
+			else if (chart1.ChartAreas[0].AxisY.Maximum == 5)
+			{
+				//
+				chart1.ChartAreas[0].AxisY.Maximum = 2;
+				chart1.ChartAreas[0].AxisY.Minimum = -2;
+			}
+			else if (chart1.ChartAreas[0].AxisY.Maximum == 2)
+			{
+				//
+				chart1.ChartAreas[0].AxisY.Maximum = 1;
+				chart1.ChartAreas[0].AxisY.Minimum = -1;
+
+				//
+				Zoom_Plus.ForeColor = Color.Gray;
+
+				//
+				Zoom_Plus.Enabled = false;
 			}
 		}
 	}

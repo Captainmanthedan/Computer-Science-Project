@@ -1,4 +1,4 @@
-﻿namespace sine_graph_4
+﻿namespace Sign_Graph___Zoom
 {
 	partial class Form1
 	{
@@ -82,10 +82,10 @@
 			this.BoxB.Location = new System.Drawing.Point(1415, 229);
 			this.BoxB.Margin = new System.Windows.Forms.Padding(4);
 			this.BoxB.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
+			100,
+			0,
+			0,
+			-2147483648});
 			this.BoxB.Name = "BoxB";
 			this.BoxB.Size = new System.Drawing.Size(81, 22);
 			this.BoxB.TabIndex = 7;
@@ -95,10 +95,10 @@
 			this.BoxD.Location = new System.Drawing.Point(1415, 293);
 			this.BoxD.Margin = new System.Windows.Forms.Padding(4);
 			this.BoxD.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
+			100,
+			0,
+			0,
+			-2147483648});
 			this.BoxD.Name = "BoxD";
 			this.BoxD.Size = new System.Drawing.Size(81, 22);
 			this.BoxD.TabIndex = 8;
@@ -106,53 +106,53 @@
 			// BoxC
 			// 
 			this.BoxC.Increment = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
+			2,
+			0,
+			0,
+			0});
 			this.BoxC.Location = new System.Drawing.Point(1415, 261);
 			this.BoxC.Margin = new System.Windows.Forms.Padding(4);
 			this.BoxC.Maximum = new decimal(new int[] {
-            21,
-            0,
-            0,
-            0});
+			21,
+			0,
+			0,
+			0});
 			this.BoxC.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+			1,
+			0,
+			0,
+			0});
 			this.BoxC.Name = "BoxC";
 			this.BoxC.Size = new System.Drawing.Size(81, 22);
 			this.BoxC.TabIndex = 9;
 			this.BoxC.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+			1,
+			0,
+			0,
+			0});
 			// 
 			// BoxA
 			// 
 			this.BoxA.Location = new System.Drawing.Point(1415, 197);
 			this.BoxA.Margin = new System.Windows.Forms.Padding(4);
 			this.BoxA.Maximum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
+			10,
+			0,
+			0,
+			0});
 			this.BoxA.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+			1,
+			0,
+			0,
+			0});
 			this.BoxA.Name = "BoxA";
 			this.BoxA.Size = new System.Drawing.Size(81, 22);
 			this.BoxA.TabIndex = 10;
 			this.BoxA.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+			1,
+			0,
+			0,
+			0});
 			// 
 			// AmpDEC
 			// 
@@ -176,6 +176,28 @@
 			this.AmpINT.TabStop = true;
 			this.AmpINT.Text = "Amplitude > 1";
 			this.AmpINT.UseVisualStyleBackColor = true;
+			// 
+			// Zoom_Plus
+			// 
+			this.Zoom_Plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Zoom_Plus.Location = new System.Drawing.Point(121, 665);
+			this.Zoom_Plus.Name = "Zoom_Plus";
+			this.Zoom_Plus.Size = new System.Drawing.Size(35, 35);
+			this.Zoom_Plus.TabIndex = 14;
+			this.Zoom_Plus.Text = "+";
+			this.Zoom_Plus.UseVisualStyleBackColor = true;
+			this.Zoom_Plus.Click += new System.EventHandler(this.Zoom_Plus_Click);
+			// 
+			// Zoom_Minus
+			// 
+			this.Zoom_Minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Zoom_Minus.Location = new System.Drawing.Point(79, 665);
+			this.Zoom_Minus.Name = "Zoom_Minus";
+			this.Zoom_Minus.Size = new System.Drawing.Size(35, 35);
+			this.Zoom_Minus.TabIndex = 15;
+			this.Zoom_Minus.Text = "-";
+			this.Zoom_Minus.UseVisualStyleBackColor = true;
+			this.Zoom_Minus.Click += new System.EventHandler(this.Zoom_Minus_Click);
 			// 
 			// Form1
 			// 
