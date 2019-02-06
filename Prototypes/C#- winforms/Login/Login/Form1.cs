@@ -19,8 +19,10 @@ namespace Login
 			InitializeComponent();
 		}
 
+		//the following happens when the user clicks on the login button
 		private void LoginButton_Click(object sender, EventArgs e)
 		{
+			//These store the
 			string username = UsernameBox.Text;
 			string pass = PassBox.Text;
 
