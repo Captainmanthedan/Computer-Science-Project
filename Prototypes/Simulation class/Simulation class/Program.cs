@@ -14,17 +14,29 @@ namespace Simulation_class
 			bool reflection = false;
 			bool refraction = false;
 
+			DateTime time = DateTime.Now;
+
 			if (wave == true)
 			{
 				Wave wave1 = new Wave();
 
-				DateTime time = DateTime.Now;
-
 				wave1.name = "Wave";
-				wave1.SignUpDate = time.ToString("yyyy-MM-dd hh:mm:ss");
+				wave1.SavedDate = time.ToString("yyyy-MM-dd hh:mm:ss");
 				wave1.UserID = 1;
 				wave1.Amplitude = 5;
 				wave1.WaveLength = 20;
+				wave1.WaveSpeed = 3;
+				wave1.Frequency = 5;
+				wave1.Period = 1;
+
+				Console.WriteLine("Name: " + wave1.name);
+				Console.WriteLine("Saved Date: " + wave1.SavedDate);
+				Console.WriteLine("UserID: " + wave1.UserID);
+				Console.WriteLine("Amplitude: " + wave1.Amplitude);
+				Console.WriteLine("Wave Length: " + wave1.WaveLength);
+				Console.WriteLine("Wave Speed: " + wave1.WaveSpeed);
+				Console.WriteLine("Frequency: " + wave1.Frequency);
+				Console.WriteLine("Period: " + wave1.Period);
 			}
 			else if (reflection == true)
 			{
@@ -34,13 +46,14 @@ namespace Simulation_class
 			{
 
 			}
+			Console.ReadKey();
 		}
 	}
 
 	class Simulation
 	{
 		public string name;
-		public string SignUpDate;
+		public string SavedDate;
 		public int UserID;
 	}
 
