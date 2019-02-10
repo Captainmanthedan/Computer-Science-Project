@@ -31,19 +31,19 @@ namespace sine_graph_3
 			//this makes the chart be a Spline which is a line graph but each line is curved not straight.
 			chart1.Series[0].ChartType = SeriesChartType.Spline;
 
-			//this hides the grid lines from the graph
+			//this hides the grid lines from the graph by making their thickness zero
 			chart1.ChartAreas[0].AxisX.MajorGrid.LineWidth = 0;
 			chart1.ChartAreas[0].AxisY.MajorGrid.LineWidth = 0;
 
-			//this hides the x and y axis lines
+			//this hides the x and y axis lines by making them match the color of the chart background
 			chart1.ChartAreas[0].AxisX.LineColor = chart1.BackColor;
 			chart1.ChartAreas[0].AxisY.LineColor = chart1.BackColor;
 
-			//removes number scale from the x and y axis of the graph
+			//removes number scale from the x and y axis of the graph, by making their enabled property false
 			chart1.ChartAreas[0].AxisX.LabelStyle.Enabled = false;
 			chart1.ChartAreas[0].AxisY.LabelStyle.Enabled = false;
 
-			//this removes the x and y axis scale lines
+			//this removes the x and y axis scale lines, by making their enabled property false
 			chart1.ChartAreas[0].AxisX.MajorTickMark.Enabled = false;
 			chart1.ChartAreas[0].AxisY.MajorTickMark.Enabled = false;
 

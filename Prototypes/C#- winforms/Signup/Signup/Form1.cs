@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
@@ -28,6 +21,7 @@ namespace Signup
 
 			//this stores the time when the user clicked register
 			var time = DateTime.Now;
+
 			//this uses the time variable and puts it in a form that can be understood by MySQL
 			string SignUpDate = time.ToString("yyyy-MM-dd hh:mm:ss");
 

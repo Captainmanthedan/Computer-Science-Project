@@ -19,14 +19,12 @@ namespace Reflection2
 
 			this.AutoSize = true;
 
-			Anchor
-
 			Box.Width = 600;
 			Box.Height = 340;
 
 			Box.Image = Draw;
 
-			Box.BackColor = Color.Gray;
+			Box.BackColor = Color.White;
 			Box.Show();
 
 			Draw = new Bitmap(Box.Size.Width, Box.Size.Height);
