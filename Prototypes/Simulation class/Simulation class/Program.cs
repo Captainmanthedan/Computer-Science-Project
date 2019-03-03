@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Simulation_class
 {
@@ -40,11 +36,20 @@ namespace Simulation_class
 			}
 			else if (reflection == true)
 			{
+				Reflection reflection1 = new Reflection();
+
+				reflection1.name = "Wave";
+				reflection1.SavedDate = time.ToString("yyyy-MM-dd hh:mm:ss");
+				reflection1.UserID = 1;
+				reflection1.RefAngle = 32;
 
 			}
 			else if (refraction == true)
 			{
+				Refraction refraction1 = new Refraction();
 
+				refraction1.name = "Refraction";
+				refraction1.SavedDate = time.ToString("yyyy-mm-dd hh:mm:ss");
 			}
 			Console.ReadKey();
 		}
@@ -68,20 +73,14 @@ namespace Simulation_class
 	}
 
 	//Dervied subclass from Simulation class
-	class Light: Simulation
+	class Reflection: Simulation
 	{
-		public int IncidenceAngle;
 		public int RefAngle;
 	}
 
-	//Dervied subclass from Light subclass
-	class Reflection: Light
-	{
-
-	}
 
 	//Dervied subclass from Light subclass
-	class Refraction: Light
+	class Refraction: Reflection
 	{
 		public int RefractiveIndex1;
 		public int RefractiveIndex2;

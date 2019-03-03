@@ -11,3 +11,4 @@ C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Signup
 C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Signup_Secure\Signup_Secure\obj\Debug\Signup_Secure.csproj.CopyComplete
 C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Signup_Secure\Signup_Secure\obj\Debug\Signup_Secure.exe
 C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Signup_Secure\Signup_Secure\obj\Debug\Signup_Secure.pdb
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Signup_Secure\Signup_Secure\obj\Debug\Signup_Secure.SignUp.resources

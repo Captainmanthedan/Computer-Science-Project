@@ -1,0 +1,10 @@
+CREATE DATABASE Prototype;
+
+CREATE TABLE Test (
+	FirstName Varchar(50) NOT NULL,
+	LastName Varchar(50) NOT NULL
+);
+
+INSERT INTO Test (FirstName, LastName) VALUES ('USERINPUT', 'USERINPUT');
+
+SELECT (FirstName) FROM Test WHERE LastName = 'USERINPUT';

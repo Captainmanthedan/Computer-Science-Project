@@ -12,3 +12,5 @@ C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Login\
 C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Login\Login\obj\Debug\Login.csproj.CopyComplete
 C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Login\Login\obj\Debug\Login.exe
 C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Login\Login\obj\Debug\Login.pdb
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Login\Login\bin\Debug\Hash.dll
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\C#- winforms\Login\Login\bin\Debug\Hash.pdb

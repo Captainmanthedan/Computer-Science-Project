@@ -1,0 +1,17 @@
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\bin\Debug\Physics Simulator.exe.config
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\bin\Debug\Physics Simulator.exe
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\bin\Debug\Physics Simulator.pdb
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics Simulator.csprojAssemblyReference.cache
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.StartScreen.resources
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.Properties.Resources.resources
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics Simulator.csproj.GenerateResource.cache
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics Simulator.exe
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics Simulator.pdb
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\bin\Debug\MySql.Data.dll
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\bin\Debug\Google.Protobuf.dll
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\bin\Debug\MySql.Data.xml
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics Simulator.csproj.CopyComplete
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.Login.resources
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.HomePage.resources
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.SignUp.resources

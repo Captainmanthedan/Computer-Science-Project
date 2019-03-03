@@ -1,0 +1,11 @@
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\bin\Debug\Upload, receive data from database.exe.config
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\bin\Debug\Upload, receive data from database.exe
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\bin\Debug\Upload, receive data from database.pdb
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\bin\Debug\MySql.Data.dll
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\bin\Debug\Google.Protobuf.dll
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\bin\Debug\MySql.Data.xml
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\obj\Debug\Upload, receive data from database.csprojAssemblyReference.cache
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\obj\Debug\Upload, receive data from database.csproj.CoreCompileInputs.cache
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\obj\Debug\Upload, receive data from database.csproj.CopyComplete
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\obj\Debug\Upload, receive data from database.exe
+C:\Users\Capta\Documents\Computer Science Project\Prototypes\Final\Upload, receive data from database\Upload, receive data from database\obj\Debug\Upload, receive data from database.pdb
