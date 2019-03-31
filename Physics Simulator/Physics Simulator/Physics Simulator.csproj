@@ -36,6 +36,7 @@
     <Reference Include="MySql.Data, Version=8.0.13.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,11 +67,24 @@
     <Compile Include="Open.Designer.cs">
       <DependentUpon>Open.cs</DependentUpon>
     </Compile>
+    <Compile Include="Save As.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Save As.Designer.cs">
+      <DependentUpon>Save As.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simulation.cs" />
+    <Compile Include="SimulationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimulationForm.Designer.cs">
+      <DependentUpon>SimulationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="StartScreen.cs">
       <SubType>Form</SubType>
@@ -87,8 +101,17 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Open.resx">
+      <DependentUpon>Open.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Save As.resx">
+      <DependentUpon>Save As.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimulationForm.resx">
+      <DependentUpon>SimulationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>

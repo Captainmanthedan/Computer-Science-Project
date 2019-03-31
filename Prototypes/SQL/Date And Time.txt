@@ -1,3 +1,0 @@
-CREATE TABLE DateTime_Test (
-	DateTime DATETIME() NOT NULL
-);

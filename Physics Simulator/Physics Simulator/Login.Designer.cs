@@ -59,7 +59,7 @@
 			this.label1.Location = new System.Drawing.Point(32, 52);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(223, 17);
-			this.label1.TabIndex = 2;
+			this.label1.TabIndex = 9;
 			this.label1.Text = "Enter your account details to login";
 			// 
 			// label2
@@ -69,7 +69,7 @@
 			this.label2.Location = new System.Drawing.Point(32, 95);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(73, 17);
-			this.label2.TabIndex = 3;
+			this.label2.TabIndex = 7;
 			this.label2.Text = "Username";
 			// 
 			// label3
@@ -87,7 +87,7 @@
 			this.LoginButton.Location = new System.Drawing.Point(155, 167);
 			this.LoginButton.Name = "LoginButton";
 			this.LoginButton.Size = new System.Drawing.Size(75, 23);
-			this.LoginButton.TabIndex = 5;
+			this.LoginButton.TabIndex = 2;
 			this.LoginButton.Text = "Login";
 			this.LoginButton.UseVisualStyleBackColor = true;
 			this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
@@ -97,7 +97,7 @@
 			this.CancelButton.Location = new System.Drawing.Point(49, 167);
 			this.CancelButton.Name = "CancelButton";
 			this.CancelButton.Size = new System.Drawing.Size(75, 23);
-			this.CancelButton.TabIndex = 6;
+			this.CancelButton.TabIndex = 3;
 			this.CancelButton.Text = "Cancel";
 			this.CancelButton.UseVisualStyleBackColor = true;
 			this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);

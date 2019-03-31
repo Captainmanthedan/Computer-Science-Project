@@ -1,2 +1,0 @@
-INSERT INTO LOGIN_TEST_SECURE (Username, Firstname, Lastname, Password, SignUpDate)
-VALUES ('username', 'FirstName', 'LastName', 'Hash_pass', 'SignUpDate')

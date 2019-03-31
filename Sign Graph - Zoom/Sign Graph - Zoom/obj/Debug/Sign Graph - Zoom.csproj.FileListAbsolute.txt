@@ -1,9 +1,0 @@
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\bin\Debug\Sign Graph - Zoom.exe.config
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\bin\Debug\Sign Graph - Zoom.exe
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\bin\Debug\Sign Graph - Zoom.pdb
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\obj\Debug\Sign Graph - Zoom.csprojAssemblyReference.cache
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\obj\Debug\Sign_Graph___Zoom.Properties.Resources.resources
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\obj\Debug\Sign Graph - Zoom.csproj.GenerateResource.cache
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\obj\Debug\Sign Graph - Zoom.csproj.CoreCompileInputs.cache
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\obj\Debug\Sign Graph - Zoom.exe
-C:\Users\Capta\Documents\Computer Science Project\Sign Graph - Zoom\Sign Graph - Zoom\obj\Debug\Sign Graph - Zoom.pdb

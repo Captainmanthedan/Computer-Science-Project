@@ -1,7 +1,0 @@
-C:\Users\Capta\Documents\Computer Science Project\Prototypes\Simulation class\Simulation class\bin\Debug\Simulation class.exe.config
-C:\Users\Capta\Documents\Computer Science Project\Prototypes\Simulation class\Simulation class\bin\Debug\Simulation class.exe
-C:\Users\Capta\Documents\Computer Science Project\Prototypes\Simulation class\Simulation class\bin\Debug\Simulation class.pdb
-C:\Users\Capta\Documents\Computer Science Project\Prototypes\Simulation class\Simulation class\obj\Debug\Simulation class.csprojAssemblyReference.cache
-C:\Users\Capta\Documents\Computer Science Project\Prototypes\Simulation class\Simulation class\obj\Debug\Simulation class.csproj.CoreCompileInputs.cache
-C:\Users\Capta\Documents\Computer Science Project\Prototypes\Simulation class\Simulation class\obj\Debug\Simulation class.exe
-C:\Users\Capta\Documents\Computer Science Project\Prototypes\Simulation class\Simulation class\obj\Debug\Simulation class.pdb

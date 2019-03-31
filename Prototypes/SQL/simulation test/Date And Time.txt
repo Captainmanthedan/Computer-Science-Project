@@ -1,5 +1,0 @@
-CREATE TABLE DateTime_Test (
-	DateTime DATETIME NOT NULL
-);
-
-INSERT INTO DateTime_Test VALUES ('Userinput');

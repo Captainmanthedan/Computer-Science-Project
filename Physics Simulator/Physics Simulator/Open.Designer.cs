@@ -28,61 +28,62 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.Explorer = new System.Windows.Forms.DataGridView();
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			((System.ComponentModel.ISupportInitialize)(this.Explorer)).BeginInit();
+			this.Table = new System.Windows.Forms.DataGridView();
+			this.OpenButton = new System.Windows.Forms.Button();
+			this.CancelButton = new System.Windows.Forms.Button();
+			((System.ComponentModel.ISupportInitialize)(this.Table)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// Explorer
+			// Table
 			// 
-			this.Explorer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.Explorer.Location = new System.Drawing.Point(51, 54);
-			this.Explorer.Name = "Explorer";
-			this.Explorer.Size = new System.Drawing.Size(240, 150);
-			this.Explorer.TabIndex = 0;
+			this.Table.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.Table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.Table.Location = new System.Drawing.Point(32, 31);
+			this.Table.Name = "Table";
+			this.Table.Size = new System.Drawing.Size(318, 150);
+			this.Table.TabIndex = 0;
 			// 
-			// button1
+			// OpenButton
 			// 
-			this.button1.Location = new System.Drawing.Point(216, 221);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
-			this.button1.TabIndex = 1;
-			this.button1.Text = "Open";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.OpenButton.Location = new System.Drawing.Point(275, 198);
+			this.OpenButton.Name = "OpenButton";
+			this.OpenButton.Size = new System.Drawing.Size(75, 23);
+			this.OpenButton.TabIndex = 1;
+			this.OpenButton.Text = "Open";
+			this.OpenButton.UseVisualStyleBackColor = true;
+			this.OpenButton.Click += new System.EventHandler(this.OpenButton_Click);
 			// 
-			// button2
+			// CancelButton
 			// 
-			this.button2.Location = new System.Drawing.Point(51, 221);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(75, 23);
-			this.button2.TabIndex = 2;
-			this.button2.Text = "Cancel";
-			this.button2.UseVisualStyleBackColor = true;
-			this.button2.Click += new System.EventHandler(this.button2_Click);
+			this.CancelButton.Location = new System.Drawing.Point(32, 198);
+			this.CancelButton.Name = "CancelButton";
+			this.CancelButton.Size = new System.Drawing.Size(75, 23);
+			this.CancelButton.TabIndex = 2;
+			this.CancelButton.Text = "Cancel";
+			this.CancelButton.UseVisualStyleBackColor = true;
+			this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
 			// 
 			// Open
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(380, 289);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
-			this.Controls.Add(this.Explorer);
+			this.ClientSize = new System.Drawing.Size(380, 235);
+			this.Controls.Add(this.CancelButton);
+			this.Controls.Add(this.OpenButton);
+			this.Controls.Add(this.Table);
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "Open";
 			this.Text = "Open";
-			((System.ComponentModel.ISupportInitialize)(this.Explorer)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Table)).EndInit();
 			this.ResumeLayout(false);
 
 		}
 
 		#endregion
 
-		private System.Windows.Forms.DataGridView Explorer;
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.DataGridView Table;
+		private System.Windows.Forms.Button OpenButton;
+		private System.Windows.Forms.Button CancelButton;
 	}
 }

@@ -80,20 +80,23 @@
 			// Menu_Wave
 			// 
 			this.Menu_Wave.Name = "Menu_Wave";
-			this.Menu_Wave.Size = new System.Drawing.Size(128, 22);
+			this.Menu_Wave.Size = new System.Drawing.Size(180, 22);
 			this.Menu_Wave.Text = "Wave";
+			this.Menu_Wave.Click += new System.EventHandler(this.Menu_Wave_Click);
 			// 
 			// Menu_Reflection
 			// 
 			this.Menu_Reflection.Name = "Menu_Reflection";
-			this.Menu_Reflection.Size = new System.Drawing.Size(128, 22);
+			this.Menu_Reflection.Size = new System.Drawing.Size(180, 22);
 			this.Menu_Reflection.Text = "Reflection";
+			this.Menu_Reflection.Click += new System.EventHandler(this.Menu_Reflection_Click);
 			// 
 			// Menu_Refraction
 			// 
 			this.Menu_Refraction.Name = "Menu_Refraction";
-			this.Menu_Refraction.Size = new System.Drawing.Size(128, 22);
+			this.Menu_Refraction.Size = new System.Drawing.Size(180, 22);
 			this.Menu_Refraction.Text = "Refraction";
+			this.Menu_Refraction.Click += new System.EventHandler(this.Menu_Refraction_Click);
 			// 
 			// Menu_Open
 			// 
@@ -107,6 +110,7 @@
 			this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
 			this.logoutToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
 			this.logoutToolStripMenuItem.Text = "Logout";
+			this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
 			// 
 			// HomePage
 			// 
@@ -117,6 +121,7 @@
 			this.MainMenuStrip = this.Menu;
 			this.Name = "HomePage";
 			this.Text = "HomePage";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HomePage_FormClosing);
 			this.Menu.ResumeLayout(false);
 			this.Menu.PerformLayout();
 			this.ResumeLayout(false);

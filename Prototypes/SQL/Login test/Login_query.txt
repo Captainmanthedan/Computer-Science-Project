@@ -1,3 +1,0 @@
-SELECT (Password)
-FROM LOGIN_TEST_SECURE
-WHERE Username = 'username'

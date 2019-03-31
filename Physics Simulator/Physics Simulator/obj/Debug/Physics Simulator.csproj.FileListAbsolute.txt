@@ -15,3 +15,6 @@ C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simu
 C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.Login.resources
 C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.HomePage.resources
 C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.SignUp.resources
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.Open.resources
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.SimulationForm.resources
+C:\Users\Capta\Documents\Computer Science Project\Physics Simulator\Physics Simulator\obj\Debug\Physics_Simulator.SaveAs.resources

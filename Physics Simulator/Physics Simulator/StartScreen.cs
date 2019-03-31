@@ -17,14 +17,13 @@ namespace Physics_Simulator
 			InitializeComponent();
 		}
 
-		//This creates an instance of the class I created called SwitchForm that allows me to change between forms
-		SwitchForm switchForm = new SwitchForm();
+		//This creates an instance of the class SwitchForm, that allows the user to change between forms
+		private SwitchForm switchForm = new SwitchForm();
 
 		private void SignUp_Button_Click(object sender, EventArgs e)
 		{
 			//This calls the method SignUp from the class SwitchForm, which closes this form and displays SignUp form
-			//switchForm.SignUp();
-			switchForm.Open();
+			switchForm.SignUp();
 		}
 
 		private void Login_Button_Click(object sender, EventArgs e)

@@ -1,5 +1,0 @@
-C:\Users\Capta\Documents\Computer Science Project\Hash\bin\Release\Hash.dll
-C:\Users\Capta\Documents\Computer Science Project\Hash\bin\Release\Hash.pdb
-C:\Users\Capta\Documents\Computer Science Project\Hash\obj\Release\Hash.csproj.CoreCompileInputs.cache
-C:\Users\Capta\Documents\Computer Science Project\Hash\obj\Release\Hash.dll
-C:\Users\Capta\Documents\Computer Science Project\Hash\obj\Release\Hash.pdb

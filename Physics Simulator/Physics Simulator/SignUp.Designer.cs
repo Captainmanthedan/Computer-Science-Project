@@ -79,7 +79,7 @@
 			this.RegisterButton.Location = new System.Drawing.Point(269, 280);
 			this.RegisterButton.Name = "RegisterButton";
 			this.RegisterButton.Size = new System.Drawing.Size(75, 23);
-			this.RegisterButton.TabIndex = 7;
+			this.RegisterButton.TabIndex = 5;
 			this.RegisterButton.Text = "Register";
 			this.RegisterButton.UseVisualStyleBackColor = true;
 			this.RegisterButton.Click += new System.EventHandler(this.RegisterButton_Click);
@@ -89,28 +89,28 @@
 			this.UsernameBox.Location = new System.Drawing.Point(120, 105);
 			this.UsernameBox.Name = "UsernameBox";
 			this.UsernameBox.Size = new System.Drawing.Size(136, 20);
-			this.UsernameBox.TabIndex = 8;
+			this.UsernameBox.TabIndex = 0;
 			// 
 			// FirstNameBox
 			// 
 			this.FirstNameBox.Location = new System.Drawing.Point(120, 140);
 			this.FirstNameBox.Name = "FirstNameBox";
 			this.FirstNameBox.Size = new System.Drawing.Size(136, 20);
-			this.FirstNameBox.TabIndex = 9;
+			this.FirstNameBox.TabIndex = 1;
 			// 
 			// LastNameBox
 			// 
 			this.LastNameBox.Location = new System.Drawing.Point(120, 175);
 			this.LastNameBox.Name = "LastNameBox";
 			this.LastNameBox.Size = new System.Drawing.Size(136, 20);
-			this.LastNameBox.TabIndex = 10;
+			this.LastNameBox.TabIndex = 2;
 			// 
 			// PassBox
 			// 
 			this.PassBox.Location = new System.Drawing.Point(120, 210);
 			this.PassBox.Name = "PassBox";
 			this.PassBox.Size = new System.Drawing.Size(136, 20);
-			this.PassBox.TabIndex = 11;
+			this.PassBox.TabIndex = 3;
 			// 
 			// label4
 			// 
@@ -147,7 +147,7 @@
 			this.CancelButton.Location = new System.Drawing.Point(181, 280);
 			this.CancelButton.Name = "CancelButton";
 			this.CancelButton.Size = new System.Drawing.Size(75, 23);
-			this.CancelButton.TabIndex = 15;
+			this.CancelButton.TabIndex = 6;
 			this.CancelButton.Text = "Cancel";
 			this.CancelButton.UseVisualStyleBackColor = true;
 			this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
@@ -157,7 +157,7 @@
 			this.ConfirmPassBox.Location = new System.Drawing.Point(120, 245);
 			this.ConfirmPassBox.Name = "ConfirmPassBox";
 			this.ConfirmPassBox.Size = new System.Drawing.Size(136, 20);
-			this.ConfirmPassBox.TabIndex = 16;
+			this.ConfirmPassBox.TabIndex = 4;
 			// 
 			// label7
 			// 
